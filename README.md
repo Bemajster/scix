@@ -1,0 +1,2 @@
+# scix
+ Scientific computing library
