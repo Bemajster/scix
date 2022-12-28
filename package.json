@@ -1,0 +1,62 @@
+{
+  "name": "scix",
+  "version": "0.0.2",
+  "description": "Scix is scientific computing library",
+  "types": "./lib/index.d.ts",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "coverage": "jest --coverage",
+    "build": "tsc"
+  },
+  "exports": {
+    ".": "./lib/",
+    "./math": "./lib/math",
+    "./math/utils": "./lib/math/utils",
+    "./math/geometry": "./lib/math/geometry",
+    "./math/func": "./lib/math/func",
+    "./math/complex": "./lib/math/complex",
+    "./math/algebra": "./lib/math/algebra",
+    "./math/settheory": "./lib/math/settheory",
+    "./math/numbertheory": "./lib/math/numbertheory",
+    "./math/probstat": "./lib/math/probstat",
+    "./math/calculus": "./lib/math/calculus"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bemajster/scix.git"
+  },
+  "keywords": [
+    "scientific",
+    "computing",
+    "library",
+    "math",
+    "science",
+    "physics",
+    "chemistry",
+    "scix"
+  ],
+  "author": "Bemajster",
+  "contributors": [
+    {
+      "name": "Bemajster",
+      "url": "https://github.com/Bemajster"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bemajster/scix/issues"
+  },
+  "homepage": "https://github.com/Bemajster/scix#readme",
+  "devDependencies": {
+    "@swc/jest": "^0.2.21",
+    "@types/jest": "^28.1.3",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "eslint": "^8.19.0",
+    "jest": "^28.1.1",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4"
+  }
+}
