@@ -1,2 +1,6 @@
-/src/
 /test/
+/node_modules/
+/src/
+jest.config.js
+logo.png
+/coverage/
